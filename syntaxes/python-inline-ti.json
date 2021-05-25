@@ -6,7 +6,7 @@
       {
         "contentName": "meta.embedded.inline.thingsdb",
         "begin": "(?:[bBrRuU]?)(\"\"\"|f\"\"\")\\s*(?=\/\/ti)",
-        "end": "\"\"\"",
+        "end": "(\"\"\")",
         "beginCaptures": {
           "1": {
             "name": "string.quoted.multi.python"
