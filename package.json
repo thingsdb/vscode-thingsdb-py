@@ -1,0 +1,48 @@
+{
+    "name": "thingsdb-py",
+    "displayName": "Python String ThingsDB",
+    "description": "Highlight ThingsDB code in python multiline strings",
+    "version": "0.0.1",
+    "publisher": "transceptor-technology",
+    "engines": {
+      "vscode": "^1.41.0"
+    },
+    "galleryBanner": {
+      "color": "#dedede",
+      "theme": "light"
+    },
+    "repository": {
+      "url": "https://github.com/uogiukas/python-string-sql"
+    },
+    "bugs": {
+      "url": "https://github.com/uogiukas/python-string-sql/issues"
+    },
+    "categories": ["Programming Languages"],
+    "keywords": ["python", "sql", "python-string-sql"],
+    "contributes": {
+      "languages": [
+        {
+          "id": "python",
+          "aliases": [
+            "python"
+          ],
+          "extensions": [
+            ".py",
+            ".py3"
+          ]
+        }
+      ],
+      "grammars": [
+        {
+          "injectTo": [
+            "source.python"
+          ],
+          "scopeName": "inline.python-thingsdb",
+          "path": "./syntaxes/python-inline-ti.json",
+          "embeddedLanguages": {
+            "meta.embedded.inline.thingsdb": "thingsdb"
+          }
+        }
+      ]
+    }
+  }
