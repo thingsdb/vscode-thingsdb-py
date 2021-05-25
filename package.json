@@ -12,13 +12,13 @@
       "theme": "light"
     },
     "repository": {
-      "url": "https://github.com/uogiukas/python-string-sql"
+      "url": "https://github.com/thingsdb/vscode-thingsdb-py"
     },
     "bugs": {
-      "url": "https://github.com/uogiukas/python-string-sql/issues"
+      "url": "https://github.com/thingsdb/vscode-thingsdb-py/issues"
     },
     "categories": ["Programming Languages"],
-    "keywords": ["python", "sql", "python-string-sql"],
+    "keywords": ["python", "thingsdb", "thingsdb-py"],
     "contributes": {
       "languages": [
         {

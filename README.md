@@ -1,7 +1,6 @@
-# Python string SQL
+# Python string ThingsDB
 
-Need for this project arise of daily work with [PySpark](https://spark.apache.org/docs/2.2.0/api/python/pyspark.html) scripts that have a lot of sql inside.
-This project's aim is to enable syntax highlighting for SQL inside Python multiline strings, especially PySpark, using VS Code.
+We write Python Code with embedded ThingsDB code. Syntax highlighting for ThingsDB Code makes this a lot easier.
 
 ## Installation
 
@@ -24,12 +23,13 @@ The resulting `.vsix` file can be installed via the VSCode GUI.
 ## Usage
 
 ### Currently:
-SQL hilighting starts after keywords `SELECT`, `INSERT` and `CREATE TABLE` at the start of multi-line string.
+
+ThingsDB hilighting starts after adding the comment `//ti` at the start of multi-line string.
 ![example](images/example_highlight.png)
+
 ## Acknowledgements
 
 This project was cloned from Mark Wibrow project [python-string-sql](https://github.com/mwibrow/python-string-sql), that was was adpated from [es6-string-html](https://github.com/hanjingboo/es6-string-html).
-Considerable insight into writing the [TextMate grammars](https://macromates.com/manual/en/language_grammars) used by VS Code, can be found in an [old blog post](https://www.apeth.com/nonblog/stories/textmatebundle.html) by Matt Neuburg. 
 
 ## Contribution
 
