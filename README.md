@@ -2,6 +2,12 @@
 
 We write Python Code with embedded ThingsDB code. Syntax highlighting for ThingsDB Code makes this a lot easier.
 
+## Release Notes
+
+### 0.0.1
+
+Initial release.
+
 ## Installation
 
 As the extension is in development, installation is only possible manually.

@@ -2,7 +2,7 @@
     "name": "thingsdb-py",
     "displayName": "Python String ThingsDB",
     "description": "Highlight ThingsDB code in python multiline strings",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "transceptor-technology",
     "engines": {
       "vscode": "^1.41.0"
@@ -12,11 +12,15 @@
       "theme": "light"
     },
     "repository": {
+      "type": "git",
       "url": "https://github.com/thingsdb/vscode-thingsdb-py"
     },
     "bugs": {
-      "url": "https://github.com/thingsdb/vscode-thingsdb-py/issues"
+      "url": "https://github.com/thingsdb/vscode-thingsdb-py/issues",
+      "email": "jeroen@transceptor.technology"
     },
+    "icon": "logo.png",
+    "license": "SEE LICENSE IN LICENSE FILE",
     "categories": ["Programming Languages"],
     "keywords": ["python", "thingsdb", "thingsdb-py"],
     "contributes": {

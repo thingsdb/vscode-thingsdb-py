@@ -19,10 +19,10 @@
           },
         "patterns": [
           {
-            "include": "source.thingsdb"
+            "include": "source.ti"
           }
         ]
       }
     ],
     "scopeName": "inline.python-thingsdb"
-  }
+}
